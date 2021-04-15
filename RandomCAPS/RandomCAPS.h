@@ -1,6 +1,6 @@
 #pragma once
-#ifndef VOLUMEDOWN_H
-#define VOLUMEDOWN_H
+#ifndef RANDOMCAPS_H
+#define RANDOMCAPS_H
 
 // WINVER must be set to let Windows.h know to turn on certain functionality (SendInput in this case)
 #define WINVER 0x0500
@@ -10,9 +10,6 @@
 #include <tchar.h>
 #include <stdio.h>
 #include <strsafe.h>
-#include <initguid.h>
-#include <mmdeviceapi.h>
-#include <endpointvolume.h>
 
 
 /// <summary>Classic ErrorExit funciton, but prints instead of displaying a MessageBox</summary>
@@ -27,4 +24,4 @@ void ErrorExit(LPTSTR);
 /// <returns>Exit code</returns>
 int main(int argc, const char* argv[]);
 
-#endif // VOLUMEDOWN_H
+#endif // RANDOMCAPS_H

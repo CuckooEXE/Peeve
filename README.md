@@ -8,7 +8,7 @@ Various utilities meant to peeve users in Windows. All are non-destructive.
 ## Capabilities
 
  - **Dimmer:** (_IN PROGRESS_) Dims the user's screen slowly 
- - **GetDown:** (_IN PROGRESS_) Minimizes all windows
+ - **GetDown:** Minimizes all windows
  - **IconShuffle:** Shuffles all the Desktop Icon positions
  - **RandomCAPS:** Turns on CAPS Lock
  - **VolumeDown:** Turns down the System Volume slowly
@@ -19,8 +19,10 @@ Various utilities meant to peeve users in Windows. All are non-destructive.
 
 All of these projects build in MSVC without any issues.
 
-_Note:_ IconShuffle must be built for x64 targets, unless the victim computer is 32-bit. This is because the process has to hook into the Desktop process that 
-is running in whatever bit-size the host computer is.
+_Note:_ `IconShuffle` must be built for x64 targets, unless the victim computer is 32-bit. This is because the process has to hook into the Desktop process that 
+is running in whatever byte-size the host computer is.
+
+_Note:_ `GetDown` must be built for x86 and x64 targets respectively. It will only work on Windows that match the byte-size.
 
 
 ## Usage

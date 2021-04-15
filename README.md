@@ -7,12 +7,12 @@ Various utilities meant to peeve users in Windows. All are non-destructive.
 
 ## Capabilities
 
- - **Dimmer:** Dims the user's screen slowly
- - **GetDown:** Minimizes all windows
+ - **Dimmer:** (_IN PROGRESS_) Dims the user's screen slowly 
+ - **GetDown:** (_IN PROGRESS_) Minimizes all windows
  - **IconShuffle:** Shuffles all the Desktop Icon positions
  - **RandomCAPS:** Turns on CAPS Lock
  - **VolumeDown:** Turns down the System Volume slowly
- - **Peeve:** A utility that combines all of the above and randomly schedules them
+ - **Peeve:** (_IN PROGRESS_) A utility that combines all of the above and randomly schedules them
 
 
 ## Building

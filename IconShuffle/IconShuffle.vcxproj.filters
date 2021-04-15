@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\IconShuffle\IconShuffle\IconShuffle.h">
+    <ClInclude Include="IconShuffle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\IconShuffle\IconShuffle\IconShuffle.c">
+    <ClCompile Include="IconShuffle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
